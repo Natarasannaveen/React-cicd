@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  nginx:
+    image: guvireactapp
+    container_name: capstone
+    ports:
+      - "80:80"
